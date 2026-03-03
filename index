@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width =device-width,intial-scale=1.0">
+        <title>text formatting</title>
+
+    </head>
+
+    <body>
+        <h1>Welcome To My Portfolio </h1>
+        <a href="">
+            <button>
+                About
+            </button>
+
+        </a>
+        <a href="">
+            <button>
+                Skills
+            </button>
+        </a>
+        <a href="">
+            <button>
+               Projects 
+            </button>
+        </a>
+        <a href="">
+            <button>
+                Contact
+            </button>
+        </a>
+        
+        <h1>Lakshmiprasanna</h1>
+        <p>i am passionate python developer with a focus on front-end technologies</p>
+
+        <p>I am currently pursuing my course from <em>microsoft python programming developer </em>online </p>
+        <p>you can <strong>click here</strong> to checkout what i have learnt in HTML,CSS,JS</p>
+        <h1>My Skills</h1>
+        <ol>
+            <li>Python basics</li>
+            <li>HTML Basics</li>
+            <li>Excel basics</li>
+        </ol>
+
+        <h1>Contact Me</h1>
+        <p>
+            Feel free to contact me using the form below
+        </p>
+        <form action="">
+            <label for = "name">Name:</label>
+            <input type="text">
+            <br>
+
+            <label for="Email">Email:</label>
+            <input type="email">
+            <br>
+
+            <b>choose your gender:</b>
+            <input type="radio" id = "male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="Female" value = "Female">
+            <label for="Female">Female</label>
+            <br>
+
+
+            <b>
+                Select your interests:
+            </b>
+            <input type="checkbox" id="coding" value="coding">
+            <label for="coding">coding</label>
+            <input type="checkbox" id="reading" value="reading">
+            <label for="reading">reading</label>
+            <br>
+
+            <label for="bio">Bio(up to 200 characters)</label>
+            <input type="text">
+            <br>
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </body>
+</html>
