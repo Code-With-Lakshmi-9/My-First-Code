@@ -1,84 +1,84 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html>
     <head>
+        <title>My Portfolio</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width =device-width,intial-scale=1.0">
-        <title>text formatting</title>
-
+        <meta name="viewport"content="width=device-width,initial-scale=1.0"
     </head>
 
-    <body>
-        <h1>Welcome To My Portfolio </h1>
-        <a href="">
-            <button>
-                About
-            </button>
+<body>
+    <header> 
+       <h1>my portfolio</h1> 
 
-        </a>
-        <a href="">
-            <button>
-                Skills
-            </button>
-        </a>
-        <a href="">
-            <button>
-               Projects 
-            </button>
-        </a>
-        <a href="">
-            <button>
-                Contact
-            </button>
-        </a>
-        
-        <h1>Lakshmiprasanna</h1>
-        <p>i am passionate python developer with a focus on front-end technologies</p>
+    </header>
 
-        <p>I am currently pursuing my course from <em>microsoft python programming developer </em>online </p>
-        <p>you can <strong>click here</strong> to checkout what i have learnt in HTML,CSS,JS</p>
-        <h1>My Skills</h1>
-        <ol>
-            <li>Python basics</li>
-            <li>HTML Basics</li>
-            <li>Excel basics</li>
-        </ol>
+    <main>
+        <section id="about">
+              <h1>Lakshmiprasanna.Madana</h1>
+    <img scr  
 
-        <h1>Contact Me</h1>
-        <p>
-            Feel free to contact me using the form below
-        </p>
-        <form action="">
-            <label for = "name">Name:</label>
-            <input type="text">
-            <br>
+    <p>I am passionate about my learning.</p>
+    <p>Currently, i am persuing <em>microsoft python programming developer</em> from online. </p>
+    <p>My goal is to become a <strong>Python Programming Developer</strong>.</p>
+        </section>
+        <section id="skills">
+            <h1>Skills</h1>
+    <ol>
+        <li>Good Communication Skills</li>
+        <li>Python Basics</li>
+        <li>Machine Learning Basics</li>
+        <li>HTML Basics</li>
+        </section>
+        <section id="project">
+             <h1>
+        My Projects
+    </h1>
+    <table border="1">
+        <tr>
+            <th>projects</th>
+            <th>description</th>
+        </tr>
+        <tr>
+            <td>portfolio website</td>
+            <td>i have built a portfolio to my website by using html</td>
+        </tr>
+    </table>
+        </section>
+        <section id="contact">
+            </ol>
+    <h1>Contact Me</h1>
+    <p>feel free to contact me for more Information</p>
+    <form action=" ">
+        <label for="name">Name:</label>
+        <input type="text">
+        <br>
 
-            <label for="Email">Email:</label>
-            <input type="email">
-            <br>
+        <label for="email">Email:</label>
+        <input type="email">
+        <br>
 
-            <b>choose your gender:</b>
-            <input type="radio" id = "male" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="Female" value = "Female">
-            <label for="Female">Female</label>
-            <br>
+        <b>choose your gender:</b>
+        <input type="radio" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="female">
+        <label for="Female">Female</label>
+        <br>
+        <b>Select your interests:</b>
+        <input type="checkbox" id="reading" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="coding" value="coding">
+        <label for="coding">Coding</label>
+        <br>
 
-
-            <b>
-                Select your interests:
-            </b>
-            <input type="checkbox" id="coding" value="coding">
-            <label for="coding">coding</label>
-            <input type="checkbox" id="reading" value="reading">
-            <label for="reading">reading</label>
-            <br>
-
-            <label for="bio">Bio(up to 200 characters)</label>
-            <input type="text">
-            <br>
-            <button type="submit">Submit</button>
-
-        </form>
-
-    </body>
+        <label for="bio">Bio(maintain atleast 20 characters)</label>
+        <input>
+        <br>
+        <button>submit</button>
+    </form>
+        </section>
+    </main>
+    <footer>
+       <p> 2026 march my portfolio</p>
+    </footer>
+</body>
 </html>
