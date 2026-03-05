@@ -15,8 +15,6 @@
     <main>
         <section id="about">
               <h1>Lakshmiprasanna.Madana</h1>
-    <img scr  
-
     <p>I am passionate about my learning.</p>
     <p>Currently, i am persuing <em>microsoft python programming developer</em> from online. </p>
     <p>My goal is to become a <strong>Python Programming Developer</strong>.</p>
@@ -82,3 +80,4 @@
     </footer>
 </body>
 </html>
+
